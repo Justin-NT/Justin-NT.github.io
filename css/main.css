@@ -1,0 +1,27 @@
+@import "about.css";
+@import "body.css";
+@import "contact.css";
+@import "footer.css";
+@import "header.css";
+@import "navbar.css";
+@import "projects.css";
+@import "variables.css";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* 
+change the size of the text boxes of the projects
+fix the color scheme
+fix the project announcement
+fix the logo scaling
+fix the text section breaking the size when rescaled
+experiment with text fonts
+get rid of borders
+*/

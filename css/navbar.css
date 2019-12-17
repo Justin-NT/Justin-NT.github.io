@@ -1,0 +1,21 @@
+#navbarNav {
+    margin-left: auto;
+}
+
+.navbar {
+    background: #404040;
+}
+
+.nav-link {
+    color: white;
+}
+
+#logo {
+    height: 35%;
+    width: 35%;
+    min-height: 20%;
+}
+
+/* .navbar-toggler {
+    background-color: blue;
+} */

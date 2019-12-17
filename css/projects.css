@@ -1,0 +1,23 @@
+#projects-container {
+    background-color: whitesmoke;
+    width: 100vw;
+    max-height: auto;
+    position: relative;
+    display: flex;
+    border: black 2px solid;
+}
+
+.card-deck {
+    margin: 2% 2% 2% 2%;
+}
+
+#project-announcer {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 6.7vh;
+    justify-self: center;
+    color: black;
+}
+
+/* https://justin-nt.github.io/NYT-API-Practice/ */
