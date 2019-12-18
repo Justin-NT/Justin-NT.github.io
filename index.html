@@ -10,15 +10,18 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <title>Welcome to Justin's Portfolio!</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <title>Welcome to Justin's Portfolio!</title>
   </head>
 
   <body>
     <div id="site-container">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="display: flex;">
-        <a style="width: 10%; min-width: 5%;" href="#"><img src="./assets/logo.png" id="logo" /></a>
+      <nav
+        class="navbar navbar-expand-lg fixed-top navbar-dark"
+        style="display: flex;"
+      >
+        <a href="#"><img src="./assets/logo.png" id="logo"/></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,21 +33,31 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end;">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+          style="justify-content: flex-end;"
+        >
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#landing-page-container"
+              <a class="nav-link" id="sample" href="#landing-page-container"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-me-container" style="color: white;">About Me</a>
+              <a class="nav-link" id="sample" href="#about-me-container"
+                >About Me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects-container" style="color: white;">Projects</a>
+              <a class="nav-link" id="sample" href="#projects-container"
+                >Projects</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact-container" style="color: white;">Contact Me</a>
+              <a class="nav-link" id="sample" href="#contact-container"
+                >Contact Me</a
+              >
             </li>
           </ul>
         </div>
@@ -60,114 +73,215 @@
         </div>
       </header>
 
-      <!-- Projects Section -->
-      <section id="projects-container" style="flex-wrap: wrap;">
-        <h2 id="project-announcer">Projects</h2>
-        <div class="card-deck">
-          <div class="card">
-            <img
-              src="./assets/CSSCreature.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">CSS Creature</h5>
-              <p class="card-text">
-                A simple project during my preliminary time at Eleven Fifty
-                Academy. It's a silly creature made using CSS and HTML.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-          <div class="card">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-          <div class="card">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-deck">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-          <div class="card">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
-          </div>
-          <div class="card">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+      <!-- About Me Section -->
+      <section id="about-me-container">
+        <div id="picture"></div>
+        <div id="self-intro">
+          <h1 style="text-align: center;">About Me</h1>
+          <div id="about-me-text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sed
+              pariatur saepe inventore eaque voluptatem quo voluptates labore,
+              aut dicta eum doloribus aspernatur ipsa, vitae quibusdam impedit
+              dignissimos consequatur porro? Nobis facilis expedita doloremque
+              consequatur vitae! Magnam aut fuga sed, quam in exercitationem
+              doloribus eveniet ratione saepe quod at culpa.
+            </p>
           </div>
         </div>
       </section>
 
-      <!-- About Me Section -->
-      <section id="about-me-container">
-        <h1 style="align-self: center;">About Me</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          tempora voluptate possimus similique corrupti esse voluptatem earum
-          repellendus officia tenetur optio, velit sapiente facere vero nobis
-          nisi nostrum? Corrupti, delectus?
+      <!-- Projects Section -->
+      <section id="projects-container" style="flex-wrap: wrap;">
+        <h1 id="project-announcer">Projects</h1>
+        <div id="gallery-wrapper">
+          <!--Carousel Wrapper-->
+          <div
+            id="carousel-example-2"
+            class="carousel slide carousel-fade z-depth-1-half"
+            data-ride="carousel"
+          >
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carousel-example-2"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#carousel-example-2" data-slide-to="1"></li>
+              <li data-target="#carousel-example-2" data-slide-to="2"></li>
+              <li data-target="#carousel-example-2" data-slide-to="3"></li>
+              <li data-target="#carousel-example-2" data-slide-to="4"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="./assets/quoteGenerator.jpg"
+                    alt="First slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive">
+                    <a
+                      href="https://jt-inspirationalquotegenerator.web.app/"
+                      target="blank"
+                      >Quote and Image Generator</a
+                    >
+                  </h3>
+                  <p>
+                    <a
+                      href="https://jt-inspirationalquotegenerator.web.app/"
+                      target="blank"
+                    >
+                      <img
+                        src="./assets/githubIconTest.png"
+                        class="github-link"
+                      />
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="./assets/CSSCreatureSizeTest.png"
+                    alt="Second slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive"><a href="https://codepen.io/Justin-NT/pen/mdydpMe" target="blank">CSS Creature</a></h3>
+                  <p>
+                    <a href="https://codepen.io/Justin-NT/pen/mdydpMe" target="blank">
+                      <img
+                        src="./assets/githubIconTest.png"
+                        class="github-link"
+                      />
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img class="d-block w-100"
+                  src="./assets/staticPageThumbnail.png"" alt="Third slide" />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3
+                    class="h3-responsive"
+                    style="text-shadow: black 1px 1px 4px;"
+                  ><a href="https://justin-nt.github.io/StaticLayout/" target="blank">
+                    Static Layout Site
+                  </h3>
+                  <p>
+                  </a>
+                    <a
+                      href="https://github.com/Justin-NT/StaticLayout"
+                      target="blank"
+                    >
+                      <img
+                        src="./assets/githubIconTest.png"
+                        class="github-link"
+                      />
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="./assets/comingSoon.jpg"
+                    alt="Fourth slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive"><a href="#" target="blank">TBD Blue Badge Project</a></h3>
+                  <p>
+                    <a href="https://github.com/Justin-NT" target="blank">
+                      <img
+                        src="./assets/githubIconTest.png"
+                        class="github-link"
+                      />
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  <img
+                    class="d-block w-100"
+                    src="./assets/comingSoon.jpg"
+                    alt="Fifth slide"
+                  />
+                  <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption">
+                  <h3 class="h3-responsive"><a href="#" target="blank">TBD Red Badge Project</a></h3>
+                  <p>
+                    <a href="https://github.com/Justin-NT" target="blank">
+                      <img
+                        src="./assets/githubIconTest.png"
+                        class="github-link"
+                      />
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a
+              class="carousel-control-prev"
+              href="#carousel-example-2"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carousel-example-2"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+          </div>
+          <!--/.Carousel Wrapper-->
+        </div>
+        <!-- short intro to resume, placed below the project carousel -->
+        <p id="resume-intro">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
+          esse quo ratione aut voluptas facere animi eius possimus numquam
+          velit, labore, fuga, maiores ullam commodi cumque qui. Minus, laborum
+          ut!
         </p>
       </section>
 
       <!-- Email Form/Contact Section -->
-      <div id="contact-container">
+      <div id="contact-container" style="padding-bottom: 3vh;">
         <script src="scripts.js"></script>
         <section id="contact">
           <section id="contact">
@@ -227,7 +341,7 @@
                     </div>
                     <div class="text-center">
                       <div id="success"></div>
-                      <button type="submit" class="btn btn-lg btn-black">
+                      <button type="submit" class="btn btn-lg btn-dark">
                         <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                         Send Message
                       </button>
@@ -241,8 +355,45 @@
       </div>
 
       <!-- Footer Section -->
-      <footer id="footer-container"></footer>
+      <footer id="footer-container">
+        <div id="social-logos">
+          <a href="https://github.com/Justin-NT" target="blank"
+            ><img
+              src="./assets/githubIconTest.png"
+              alt="GitHub Logo"
+              class="logoStyling"
+          /></a>
+
+          <a
+            href="https://www.linkedin.com/in/justin-terry-743939194/"
+            target="blank"
+          >
+            <img
+              src="./assets/linkedInCircle.png"
+              alt="LinkedIn Logo"
+              class="logoStyling"
+            />
+          </a>
+
+          <a href="https://google.com" target="blank">
+            <img
+              src="./assets/googlePlusCircle.png"
+              alt="Google Plus Logo"
+              class="logoStyling"
+            />
+          </a>
+
+          <a href="https://twitter.com/" target="blank">
+            <img
+              src="./assets/Twitter_Social_Icon_Circle_Color.png"
+              alt="Google Plus Logo"
+              class="logoStyling test-background"
+            />
+          </a>
+        </div>
+      </footer>
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
