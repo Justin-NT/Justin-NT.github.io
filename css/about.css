@@ -2,10 +2,10 @@
     height: 80vh;
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     background-color: whitesmoke;
-    justify-content: center;
-    align-content: space-around;
+    justify-content: space-around;
+    align-content: center;
 }
 
 #about-me-container h1 {
@@ -16,13 +16,13 @@
 
 #picture {
     display: flex;
-    width: 40vw;
-    height: 60%;
-    background: url('../assets/256x256.png');
+    width: 25vw;
+    height: 70%;
+    background: url('../assets/selfie.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     border: black 2px solid;
-    margin-left: 2%;
+    margin-left: 8%;
 }
 
 #self-intro {
@@ -32,10 +32,12 @@
     align-self: flex-end;
     background-color: #FBFBFB;
     color: black;
+    align-self: center;
+    margin-right: 5%;
 }
 
 #about-me-text {
-    margin-top: 7%;
+    margin-top: 3%;
     padding: 0 3% 0 3%;
 }
 
